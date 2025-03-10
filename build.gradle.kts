@@ -1,6 +1,7 @@
 plugins {
-    id("java")
+    //id("java")
     id("application")
+    //id("org.barfuin.gradle.taskinfo") version "2.1.0"
 }
 
 group = "org.example"
