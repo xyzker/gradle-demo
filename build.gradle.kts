@@ -1,11 +1,11 @@
+group = "org.example"
+version = "1.0-SNAPSHOT"
+
 plugins {
     //id("java")
     id("application")
     id("org.barfuin.gradle.taskinfo") version "2.2.0"
 }
-
-group = "org.example"
-version = "1.0-SNAPSHOT"
 
 application {
     mainClass.set("org.example.Main") // 指定主类
